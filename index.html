@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+
+
+    <form action="" method="POST">
+       
+    <fieldset> 
+        <legend>Meu Primeiro Formulário </legend>
+        <label for="">Nome:</label>
+        <input type="text" id="nome" name="nome" >
+        <br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+        <br>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha">
+        <br>
+        <hr>
+        <div> 
+            <input type="radio" id="masculino" name="genero">
+            <label for="genero">Masculino</label>
+            <br>
+            <input type="radio" id="feminino" name="genero">
+            <label for="genero">Feminino</label>
+            <br>
+            <input type="radio" id="sem-informação" name="genero">
+            <label for="genero">Não quero informar</label>
+        </div>
+        <hr>
+          <div>
+        <h4>Lista de compras!</h4>
+            <input type="checkbox" name="feijão" id="feijão">
+            <label for="feijão">Feijão</label>
+            <br>
+            <input type="checkbox" name="Arroz" id="Arroz">
+            <label for="Arroz">Arroz</label>
+            <br>
+            <input type="checkbox" name="Batata" id="Batata">
+            <label for="Batata">Batata</label>
+        </div>
+        <hr>
+
+        <select name="estados" id="estados">
+            <optgroup label="Sul">
+                <option value="SC">Santa Catarina</option>
+                <option value="RS">Rio Grande Do Sul</option>
+                <option value="PR">Paraná</option>
+            </optgroup>
+            <optgroup label="Sudeste">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="ES">Espirito Santo</option>
+                <option value="MG">Minas Gerais</option>
+            </optgroup>
+        </select>
+        <hr>
+        <label for="feedback">Feedback</label>
+        <textarea name="feedback" id="feedback"
+            cols="30" rows="10">
+
+        </textarea>
+        <hr>
+
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox"></option>
+            
+        </datalist>
+
+        <input type="reset">
+        <input type="submit">
+    </fieldset>
+</head>
+</form>
+<body>
+
+</body>
+</html>
